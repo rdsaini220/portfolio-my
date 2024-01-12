@@ -1,15 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
-
-import Project1 from '@/assets/project-1.jpg';
-import Project2 from '@/assets/project-2.png';
-import Project3 from '@/assets/project-3.jpg';
-import Project4 from '@/assets/project-4.png';
-import Project5 from '@/assets/project-5.png';
-import Project6 from '@/assets/project-6.png';
-import Project7 from '@/assets/project-7.png';
-import Project8 from '@/assets/project-8.jpg';
-import Project9 from '@/assets/project-9.png';
+// import Image from 'next/image'
 
 const ProjectsPage = () => {
   return (
