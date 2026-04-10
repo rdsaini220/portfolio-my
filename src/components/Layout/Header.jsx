@@ -22,9 +22,7 @@ const Header = ({}) => {
                     <Link className="navbar-link" href="/projects" >Projects</Link>
                 </li>
 
-                <li className="navbar-item">
-                    <Link className="navbar-link" href="/blogs" >Blogs</Link>
-                </li>
+
 
                 <li className="navbar-item">
                     <Link className="navbar-link" href="/contact" >Contact</Link>

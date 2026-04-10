@@ -25,41 +25,24 @@ const AboutPage = () => {
 
         <section className="about-text">
           <p>
-            I am willing to work smartly to reach my goals and i enjoy
-            contributing new ideas, i am self motivated. I work well under
-            pressure and understand the importance of time management.
+            Self-motivated Full Stack Developer with 4+ years of experience specializing in React.js, Next.js, and Cross-Platform Mobile Development. Proven track record in architecting high-performance systems and scalable digital solutions, with a strong focus on clean code and efficient time management.
           </p>
         </section>
 
         <section className="skills">
           <h3 className="h3 skills-title">My skills</h3>
-          <ul className="skill-card">
-            <li>
-              React.js
+          <ul className="skill-card flex-col items-start space-y-4">
+            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full mt-4 !bg-transparent whitespace-normal">
+              <strong className="text-white">Frontend:</strong> React.js, Next.js, javascript, Typescript, HTML, CSS, Tailwind CSS, Shadcn UI, Tanstack
             </li>
-            <li>
-              Next.js
+            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full !bg-transparent whitespace-normal">
+              <strong className="text-white">Backend:</strong> Express.js, Nest.js, MongoDB, PostgreSQL, MySQL
             </li>
-            <li>
-              javascript
+            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full !bg-transparent whitespace-normal">
+              <strong className="text-white">Tool:</strong> Git, Docker, REST APIs, GCP
             </li>
-            <li>
-              Typescript
-            </li>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              Git
-            </li>
-            <li>
-              Express.js
-            </li>
-            <li>
-              CodeIgniter
+            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full !bg-transparent whitespace-normal">
+              <strong className="text-white">Mobile:</strong> React Native, Expo, NativeWind, Gluestack UI
             </li>
           </ul>
         </section>
@@ -67,26 +50,54 @@ const AboutPage = () => {
         <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <i className="fa-solid fa-book-open-reader"></i>
+                <i className="fa-solid fa-certificate"></i>
+              </div>
+
+              <h3 className="h3">Certificates</h3>
+            </div>
+            <ol className="timeline-list">
+              <li className="timeline-item">
+                <h3 className="h3 timeline-item-title">Hackerrank Frontend Developer (React.js)</h3>       
+              </li>
+            </ol>
+        </section>
+
+        <section className="timeline">
+            <div className="title-wrapper gap-4 mt-5">
+              <div className="icon-box">
+                <i className="fa-solid fa-graduation-cap"></i>
               </div>
 
               <h3 className="h3">Education</h3>
             </div>
             <ol className="timeline-list">
               <li className="timeline-item">
-                <h3 className="h3 timeline-item-title">Web Development Training</h3>
-                <div className='company-title'>TGC, Jaipur</div>
-                <span>2018 — 2019</span>         
-              </li>
-              <li className="timeline-item">
                 <h3 className="h3 timeline-item-title">O Level</h3>
-                <div className='company-title'>Netcom College, Sikar</div>
-                <span>2018 — 2019</span>         
+                <div className='company-title'>Netcom College</div>
+                <span>01/2016 - 01/2017</span>         
               </li>
               <li className="timeline-item">
                 <h3 className="h3 timeline-item-title">B.A.</h3>
-                <div className='company-title'>SK College (Rajasthan University), Sikar</div>
-                <span>2014 — 2017</span>         
+                <div className='company-title'>Rajasthan University</div>
+                <span>07/2014 - 06/2017</span>         
+              </li>
+            </ol>
+        </section>
+
+        <section className="timeline">
+            <div className="title-wrapper gap-4 mt-5">
+              <div className="icon-box">
+                <i className="fa-solid fa-language"></i>
+              </div>
+
+              <h3 className="h3">Language</h3>
+            </div>
+            <ol className="timeline-list">
+              <li className="timeline-item">
+                <h3 className="h3 timeline-item-title">Hindi</h3>      
+              </li>
+              <li className="timeline-item">
+                <h3 className="h3 timeline-item-title">English</h3>  
               </li>
             </ol>
         </section>

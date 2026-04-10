@@ -274,55 +274,57 @@ const ProjectsPage = () => {
 
       </section> */}
       <section className="timeline">
-      <div className="title-wrapper">
-        <div className="icon-box">
-          <i className="fa-solid fa-shield"></i>
+        <div className="title-wrapper">
+          <div className="icon-box">
+            <i className="fa-solid fa-shield"></i>
+          </div>
+          <h3 className="h3">OUR PROJECTS</h3>
         </div>
-        <h3 className="h3">OUR PROJECTS</h3>
-      </div>
-      <ol className="timeline-list">
-        <li className="timeline-item">
-          <h3 className="h3 timeline-item-title">Quordinate</h3>
-          <a className='company-title link' href="http://quordinate.starlly.in">http://quordinate.starlly.in</a>
-          <ul className='timeline-text list-disc mt-2 ml-[15px]'>
-            <li>I managed the entire project, in this I worked on Authentication,
-                Role Based Login, redux implementation, role based access control
-                set, and make reusable component & atomic structure uses.</li>
-          </ul>
-        </li>
-        <li className="timeline-item">
-          <h3 className="h3 timeline-item-title">Spectra</h3>
-          <a className='company-title link' href="https://spectra.starlly.in">https://spectra.starlly.in</a>
-          <ul className='timeline-text list-disc mt-2 ml-[15px]'>
-            <li>Developed new features like drag and drop feature and create dynamic widgets</li>
-            <li>Like to contribute to solutions for any given problem statement.</li>
-          </ul>
-        </li>
-        <li className="timeline-item">
-          <h3 className="h3 timeline-item-title">Raja Fashions</h3>
-          <a className='company-title link' href="https://raja-fashions.com">https://raja-fashions.com</a>
-          <ul className='timeline-text list-disc mt-2 ml-[15px]'>
-            <li>Integrated front-end functionalities like appointment creation module, virtual appointment, customer login, customer proﬁle etc.</li>
-            <li>Used some best practices like adding meta tags, maintaining page index, code coverage etc.</li>
-          </ul>
-        </li>
-        <li className="timeline-item">
-          <h3 className="h3 timeline-item-title">Samthingelse</h3>
-          <a className='company-title link' href="https://www.samthingelse.com">https://www.samthingelse.com</a>
-          <ul className='timeline-text list-disc mt-2 ml-[15px]'>
-            <li>Always took part with their team or individually to resolved the bugs in the application.</li>
-            <li>Developed an e-commerce site in Next.js, emphasizing responsive design and superior UI/UX for an engaging customer experience.</li>
-          </ul>
-        </li>
-        <li className="timeline-item">
-          <h3 className="h3 timeline-item-title">Invoice CRM</h3>
-          <a className='company-title link' href="https://invoice.helpfulinsightsolution.com">https://invoice.helpfulinsightsolution.com</a>
-          <ul className='timeline-text list-disc mt-2 ml-[15px]'>
-            <li>Developed a powerful Invoice Management Web App using Codeigniter, resulting in an impressive 50% boost in overall work eﬃciency.</li>
-          </ul>
-        </li>
-      </ol>
-    </section>
+        <ol className="timeline-list">
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Merchmix (ERP System)</h3>
+            <ul className='timeline-text list-disc mt-2 ml-[15px]'>
+              <li>Architected a secure authentication system using Next.js and NextAuth.js, implementing Role-Based Access Control for enhanced security.</li>
+              <li>Developed a high-performance dynamic data table featuring inline editing, customizable column visibility, and persistent state management via zustand.</li>
+            </ul>
+          </li>
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Quordinate (Quotation Management System)</h3>
+            <ul className='timeline-text list-disc mt-2 ml-[15px]'>
+              <li>Led the end-to-end project lifecycle, focusing on secure authentication and complex role-based login flows.</li>
+              <li>Engineered scalable features and integrated third-party APIs while maintaining high performance and code quality.</li>
+            </ul>
+          </li>
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Bahipen (Personal Finance & Ledger App)</h3>
+            <ul className='timeline-text list-disc mt-2 ml-[15px]'>
+              <li>Architected and Developed a high-performance, cross-platform mobile application using Expo, NativeWind, and Gluestack UI for a seamless user experience.</li>
+              <li>Engineered a robust, asynchronous backend using FastAPI (Python) and PostgreSQL, optimizing for high-concurrency and secure data management.</li>
+            </ul>
+          </li>
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Spectra</h3>
+            <ul className='timeline-text list-disc mt-2 ml-[15px]'>
+              <li>Simple plug n play solution to monitor your machines remotely in real time, send alerts to stakeholders who matter.</li>
+              <li>Build and setup Dashboards, Workflows and Analytics in few clicks. Automate every flow, save your time.</li>
+              <li>Real time Alerts that can be easily configured to help team members take necessary action.</li>
+              <li>*Bring your own Device*: Device Agnostic, adapts as needed. Plug n Play mode, ready to go Easily configurable and setup.</li>
+            </ul>
+          </li>
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Favtutor</h3>
+            <p className='timeline-text mt-2 font-medium'>HTML, CSS, Bootstrap, JavaScript, PHP, Codeigniter</p>
+          </li>
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Raja Fashions</h3>
+            <p className='timeline-text mt-2 font-medium'>React Js, Next Js, Redux, HTML, CSS, Bootstrap</p>
+          </li>
+          <li className="timeline-item">
+            <h3 className="h3 timeline-item-title">Invoice Project</h3>
+            <p className='timeline-text mt-2 font-medium'>Php, Codeigniter, MySql, HTML, CSS, Bootstrap</p>
+          </li>
+        </ol>
+      </section>
     </div>
   )
 }
