@@ -31,19 +31,29 @@ const AboutPage = () => {
 
         <section className="skills">
           <h3 className="h3 skills-title">My skills</h3>
-          <ul className="skill-card flex-col items-start space-y-4">
-            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full mt-4 !bg-transparent whitespace-normal">
-              <strong className="text-white">Frontend:</strong> React.js, Next.js, javascript, Typescript, HTML, CSS, Tailwind CSS, Shadcn UI, Tanstack
-            </li>
-            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full !bg-transparent whitespace-normal">
-              <strong className="text-white">Backend:</strong> Express.js, Nest.js, MongoDB, PostgreSQL, MySQL
-            </li>
-            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full !bg-transparent whitespace-normal">
-              <strong className="text-white">Tool:</strong> Git, Docker, REST APIs, GCP
-            </li>
-            <li className="max-w-full text-left bg-transparent p-0 m-0 w-full !bg-transparent whitespace-normal">
-              <strong className="text-white">Mobile:</strong> React Native, Expo, NativeWind, Gluestack UI
-            </li>
+          <ul className="skill-card">
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>javascript</li>
+            <li>Typescript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Tailwind CSS</li>
+            <li>Shadcn UI</li>
+            <li>Tanstack</li>
+            <li>Git</li>
+            <li>Express.js</li>
+            <li>Nest.js</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+            <li>REST APIs</li>
+            <li>GCP</li>
+            <li>React Native</li>
+            <li>Expo</li>
+            <li>NativeWind</li>
+            <li>Gluestack UI</li>
           </ul>
         </section>
 
